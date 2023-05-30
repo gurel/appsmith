@@ -1,0 +1,20 @@
+{
+  "service":"ChatService",
+  "method":"Chat",
+  "input": {
+    "equals": {
+      "from": "From",
+      "message": "Message",
+      "test_int": 0
+    }
+  },
+  "output": {
+    "data":{
+      "message": {
+        "from": "From Output",
+        "message": "Message Output",
+        "test_int": 0
+      }
+    }
+  }
+}
